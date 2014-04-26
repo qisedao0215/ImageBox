@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC9B9F0E190A8F3D00AD5144 /* ZXScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = CC9B9F0D190A8F3D00AD5144 /* ZXScrollView.m */; };
 		CCC00EDF190A7EDF00560850 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC00EDE190A7EDF00560850 /* Foundation.framework */; };
 		CCC00EE1190A7EDF00560850 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC00EE0190A7EDF00560850 /* CoreGraphics.framework */; };
 		CCC00EE3190A7EDF00560850 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC00EE2190A7EDF00560850 /* UIKit.framework */; };
@@ -19,6 +20,12 @@
 		CCC00EFA190A7EDF00560850 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CCC00EE2190A7EDF00560850 /* UIKit.framework */; };
 		CCC00F02190A7EDF00560850 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CCC00F00190A7EDF00560850 /* InfoPlist.strings */; };
 		CCC00F04190A7EDF00560850 /* ImageBoxTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC00F03190A7EDF00560850 /* ImageBoxTests.m */; };
+		CCC00F0F190A7EF500560850 /* imageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CCC00F0E190A7EF500560850 /* imageViewController.m */; };
+		CCFEEF85190A848A00F44F6D /* new_features_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCFEEF84190A848A00F44F6D /* new_features_1.jpg */; };
+		CCFEEF8A190A874300F44F6D /* new_features_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCFEEF86190A874300F44F6D /* new_features_2.jpg */; };
+		CCFEEF8B190A874300F44F6D /* new_features_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCFEEF87190A874300F44F6D /* new_features_3.jpg */; };
+		CCFEEF8C190A874300F44F6D /* new_features_4.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCFEEF88190A874300F44F6D /* new_features_4.jpg */; };
+		CCFEEF8D190A874300F44F6D /* new_features_5.jpg in Resources */ = {isa = PBXBuildFile; fileRef = CCFEEF89190A874300F44F6D /* new_features_5.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC9B9F0C190A8F3D00AD5144 /* ZXScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZXScrollView.h; sourceTree = "<group>"; };
+		CC9B9F0D190A8F3D00AD5144 /* ZXScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZXScrollView.m; sourceTree = "<group>"; };
 		CCC00EDB190A7EDF00560850 /* ImageBox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageBox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCC00EDE190A7EDF00560850 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CCC00EE0190A7EDF00560850 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +57,13 @@
 		CCC00EFF190A7EDF00560850 /* ImageBoxTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ImageBoxTests-Info.plist"; sourceTree = "<group>"; };
 		CCC00F01190A7EDF00560850 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CCC00F03190A7EDF00560850 /* ImageBoxTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ImageBoxTests.m; sourceTree = "<group>"; };
+		CCC00F0D190A7EF500560850 /* imageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = imageViewController.h; sourceTree = "<group>"; };
+		CCC00F0E190A7EF500560850 /* imageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = imageViewController.m; sourceTree = "<group>"; };
+		CCFEEF84190A848A00F44F6D /* new_features_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_features_1.jpg; sourceTree = "<group>"; };
+		CCFEEF86190A874300F44F6D /* new_features_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_features_2.jpg; sourceTree = "<group>"; };
+		CCFEEF87190A874300F44F6D /* new_features_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_features_3.jpg; sourceTree = "<group>"; };
+		CCFEEF88190A874300F44F6D /* new_features_4.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_features_4.jpg; sourceTree = "<group>"; };
+		CCFEEF89190A874300F44F6D /* new_features_5.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = new_features_5.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +125,10 @@
 			children = (
 				CCC00EED190A7EDF00560850 /* AppDelegate.h */,
 				CCC00EEE190A7EDF00560850 /* AppDelegate.m */,
+				CCC00F0D190A7EF500560850 /* imageViewController.h */,
+				CCC00F0E190A7EF500560850 /* imageViewController.m */,
+				CC9B9F0C190A8F3D00AD5144 /* ZXScrollView.h */,
+				CC9B9F0D190A8F3D00AD5144 /* ZXScrollView.m */,
 				CCC00EF0190A7EDF00560850 /* Images.xcassets */,
 				CCC00EE5190A7EDF00560850 /* Supporting Files */,
 			);
@@ -118,6 +138,11 @@
 		CCC00EE5190A7EDF00560850 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				CCFEEF84190A848A00F44F6D /* new_features_1.jpg */,
+				CCFEEF86190A874300F44F6D /* new_features_2.jpg */,
+				CCFEEF87190A874300F44F6D /* new_features_3.jpg */,
+				CCFEEF88190A874300F44F6D /* new_features_4.jpg */,
+				CCFEEF89190A874300F44F6D /* new_features_5.jpg */,
 				CCC00EE6190A7EDF00560850 /* ImageBox-Info.plist */,
 				CCC00EE7190A7EDF00560850 /* InfoPlist.strings */,
 				CCC00EEA190A7EDF00560850 /* main.m */,
@@ -220,7 +245,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				CCC00EE9190A7EDF00560850 /* InfoPlist.strings in Resources */,
+				CCFEEF8D190A874300F44F6D /* new_features_5.jpg in Resources */,
+				CCFEEF85190A848A00F44F6D /* new_features_1.jpg in Resources */,
+				CCFEEF8A190A874300F44F6D /* new_features_2.jpg in Resources */,
 				CCC00EF1190A7EDF00560850 /* Images.xcassets in Resources */,
+				CCFEEF8C190A874300F44F6D /* new_features_4.jpg in Resources */,
+				CCFEEF8B190A874300F44F6D /* new_features_3.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,7 +269,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC00F0F190A7EF500560850 /* imageViewController.m in Sources */,
 				CCC00EEF190A7EDF00560850 /* AppDelegate.m in Sources */,
+				CC9B9F0E190A8F3D00AD5144 /* ZXScrollView.m in Sources */,
 				CCC00EEB190A7EDF00560850 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -357,9 +389,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageBox/ImageBox-Prefix.pch";
 				INFOPLIST_FILE = "ImageBox/ImageBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -370,9 +404,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_OBJC_ARC = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "ImageBox/ImageBox-Prefix.pch";
 				INFOPLIST_FILE = "ImageBox/ImageBox-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -437,6 +473,7 @@
 				CCC00F09190A7EDF00560850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CCC00F0A190A7EDF00560850 /* Build configuration list for PBXNativeTarget "ImageBoxTests" */ = {
 			isa = XCConfigurationList;
@@ -445,6 +482,7 @@
 				CCC00F0C190A7EDF00560850 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
